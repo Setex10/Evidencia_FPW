@@ -10,8 +10,8 @@ const rutas = (ruta, terminacion, cantidad) => {
     return rutas
 }
 
-const ilustraciones = rutas("./docs/img/ilustracion", ".png", 6)
-const pathProductos = rutas("./docs/img/img", ".jpg", 8)
+const ilustraciones = rutas("./img/ilustracion", ".png", 6)
+const pathProductos = rutas("./img/img", ".jpg", 8)
 
 
 pathProductos.map(producto => {
